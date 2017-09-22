@@ -66,22 +66,7 @@
     <Import Project="..\..\..\CSharpSource\external\packages\Microsoft.Xbox.Live.SDK.Cpp.UWP.v141.x86.2017.05.20170517.001\build\native\Microsoft.Xbox.Live.SDK.Cpp.UWP.v141.x86.targets" Condition="Exists('..\..\..\CSharpSource\external\packages\Microsoft.Xbox.Live.SDK.Cpp.UWP.v141.x86.2017.05.20170517.001\build\native\Microsoft.Xbox.Live.SDK.Cpp.UWP.v141.x86.targets')" />
     <Import Project="..\..\..\CSharpSource\external\packages\Microsoft.Xbox.Live.SDK.Cpp.UWP.2017.05.20170517.001\build\native\Microsoft.Xbox.Live.SDK.Cpp.UWP.targets" Condition="Exists('..\..\..\CSharpSource\external\packages\Microsoft.Xbox.Live.SDK.Cpp.UWP.2017.05.20170517.001\build\native\Microsoft.Xbox.Live.SDK.Cpp.UWP.targets')" />
   </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <Import Project="..\..\External\libHttpClient\libHttpClient.props" />
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
-    <Import Project="..\..\External\libHttpClient\libHttpClient.props" />
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <Import Project="..\..\External\libHttpClient\libHttpClient.props" />
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <Import Project="..\..\External\libHttpClient\libHttpClient.props" />
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
-    <Import Project="..\..\External\libHttpClient\libHttpClient.props" />
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+  <ImportGroup Label="PropertySheets">
     <Import Project="..\..\External\libHttpClient\libHttpClient.props" />
   </ImportGroup>
   <ItemDefinitionGroup>
